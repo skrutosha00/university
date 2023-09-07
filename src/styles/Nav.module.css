@@ -1,0 +1,14 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  
+  padding: 15px 0 15px;
+  margin-bottom: 9px;
+  border-bottom: 0.5px solid #ababc5;
+}
+
+.icon {
+  width: 15px;
+  height: 15px;
+}

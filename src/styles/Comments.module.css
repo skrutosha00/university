@@ -1,0 +1,131 @@
+.title {
+  font-size: 14px;
+  line-height: 19px;
+  padding-bottom: 2px;
+  border-bottom: 0.5px solid #ababc5;
+  margin-bottom: 24px;
+}
+
+.comment {
+  position: relative;
+  min-height: 156px;
+  margin-bottom: 24px;
+  padding-top: 10px;
+  border-radius: 5px;
+  background: #282835;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+
+  padding-left: 5px;
+}
+
+.starBlock {
+  margin-right: 7px;
+}
+
+.star {
+  width: 13px;
+  height: 13px;
+  margin-right: 2px;
+}
+
+.date {
+  font-size: 14px;
+  color: #808080;
+}
+
+.dots {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.dotsMenu {
+  position: absolute;
+  top: 25px;
+  right: 10px;
+
+  width: 137px;
+  height: 66px;
+
+  border: 1px solid #d9d9d9;
+  border-radius: 8px;
+}
+
+.dotsMenuBtn {
+  height: 50%;
+  font-size: 12px;
+  padding: 9px;
+  background: #282835;
+}
+
+.dotsMenuBtn:nth-child(1) {
+  border-radius: 8px 8px 0 0;
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.dotsMenuBtn:nth-child(2) {
+  border-radius: 0 0 8px 8px;
+}
+
+.main {
+  min-height: 58px;
+  margin: 20px auto 10px;
+  padding: 0 5px;
+  line-height: 18px;
+  word-wrap: break-word;
+}
+
+.editField {
+  width: 100%;
+  min-height: 100%;
+  height: fit-content;
+}
+
+.footerGeneral {
+  display: flex;
+  align-items: center;
+
+  width: 100%;
+  height: 44px;
+  border-top: 1px solid #ababc5;
+}
+
+.footerLoading {
+  position: relative;
+  composes: footerGeneral;
+}
+
+.footerEdit {
+  justify-content: space-around;
+  composes: footerGeneral;
+}
+
+.upArrow {
+  margin-left: 12px;
+}
+
+.rating {
+  width: 25px;
+  text-align: center;
+  margin-left: 15px;
+}
+
+.downArrow {
+  margin-left: 15px;
+  transform: rotate(180deg);
+}
+
+.footerEditBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 137px;
+  height: 33px;
+  border: 1px solid #d9d9d9;
+  border-radius: 8px;
+}

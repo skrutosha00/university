@@ -1,0 +1,38 @@
+@font-face {
+  font-family: Nunito;
+  src: url(fonts/Nunito.ttf);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  max-width: 480px;
+  height: 100vh;
+  font-family: Nunito;
+  color: #fff;
+  background: #1c1c27;
+}
+
+.wrapper {
+  padding: 0 15px;
+
+  height: calc(100vh - 75px);
+  overflow-y: scroll;
+}
+
+.title {
+  margin-bottom: 12px;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  text-transform: uppercase;
+}
+
+input,
+textarea {
+  font-family: Nunito;
+}

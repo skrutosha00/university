@@ -1,0 +1,77 @@
+.main {
+  position: relative;
+}
+
+.header {
+  height: 50px;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-bottom: 17px;
+}
+
+.stars {
+  display: flex;
+  justify-content: space-between;
+  width: 210px;
+  height: 37px;
+}
+
+.starsLoader {
+  position: relative;
+  width: 210px;
+  height: 37px;
+}
+
+.star {
+  display: block;
+  width: 37px;
+  height: 37px;
+}
+
+@media screen and (max-width: 410px) {
+  .stars {
+    width: 170px;
+    height: 30px;
+  }
+
+  .starsLoader {
+    position: relative;
+    width: 170px;
+    height: 30px;
+  }
+
+  .star {
+    display: block;
+    width: 30px;
+    height: 30px;
+  }
+}
+
+@media screen and (max-width: 365px) {
+  .info {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 345px) {
+  .stars {
+    width: 140px;
+    height: 25px;
+  }
+
+  .starsLoader {
+    position: relative;
+    width: 140px;
+    height: 25px;
+  }
+
+  .star {
+    display: block;
+    width: 25px;
+    height: 25px;
+  }
+}

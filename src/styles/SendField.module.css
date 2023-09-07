@@ -1,0 +1,42 @@
+.cont {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 100%;
+  min-height: 61px;
+  padding: 8px;
+
+  background: #1c1c27;
+  border-top: 0.5px solid #ffffff;
+}
+
+.input {
+  width: calc(100% - 43px);
+  min-height: 38px;
+
+  color: #ffffff;
+  padding: 0 10px;
+  outline: none;
+  background: #1c1c27;
+  box-sizing: border-box;
+  border: 1px solid #3e3e55;
+  border-radius: 19px;
+}
+
+.sendButton {
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 37px;
+  height: 37px;
+  border-radius: 50%;
+  background: #8758eb;
+}
